@@ -1,0 +1,92 @@
+:root{
+    --cor-principal:#143000;
+    --cor-secundaria:#428300;
+    --cor-terciaria:#BEFF7C;
+}
+body{
+    background: var(--cor-principal);
+    position: absolute;
+}
+
+hr{
+    background: pink;
+    position: relative;
+}
+.logo{
+    position: relative;
+    top:5%;
+    left:25px;
+    width: 350px;
+    height: 150px;
+}
+header{
+    justify-self: space-between;
+}
+
+main{
+    position: relative;
+    left:6%;
+    background: #2B5600;
+}
+.imagens{
+    background-color: grey;
+    align-self: center;
+    margin:1px 1px 1px 1px;
+    padding: 1px 1px 1px 1px;
+    flex: display;
+    flex-wrap: space-between;
+    position: relative;
+}
+section{
+    background: #D3FFA6;
+    width:100px;
+    height: 30px;
+    justify-self: center;
+    position: relative;
+}
+form{
+    height: 100px;
+    width:300px;
+    left: 0%;
+}
+h1{
+    text-align: center;
+}
+.Menu1{
+    height: 10px;
+    width: 300px;
+    position: relative;
+    align-content: center;
+}
+td{
+    position:relative;
+    left:18%;
+    background:white;
+    text-align: center;
+}
+@media screen (orientation:landscape){
+
+body {
+    background: var(--cor-principal);
+    margin: 0; /* Ensures no weird white gaps around the edges */
+    font-family: sans-serif;
+    position: absolute;
+}
+
+.logo{
+position: relative;
+    left:5%;
+    width:900;
+    height:300;
+}
+td {
+    margin: 0px;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between; /* justify-self doesn't work on flex containers */
+}
+
+}

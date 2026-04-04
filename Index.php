@@ -12,7 +12,7 @@
      </header>   
      <nav>
          <table class="Menu1">
-             <td onclick="#">
+             <td onclick="shjdhfjd">
             test
             </td>
             <td>
